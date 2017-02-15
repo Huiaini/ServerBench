@@ -1,4 +1,12 @@
 #!/bin/bash
+# -*- coding: UTF-8 -*-
+#############################################
+#修改者：Jocry								#
+#修改者博客：www.jocry.com                   #
+#修改者QQ：544001049                         #
+#修改者QQ群:131514175                        #
+#############################################
+# 当前脚本执行
 get_opsy() {
     [ -f /etc/redhat-release ] && awk '{print ($1,$3~/^[0-9]/?$3:$4)}' /etc/redhat-release && return
     [ -f /etc/os-release ] && awk -F'[= "]' '/PRETTY_NAME/{print $3,$4,$5}' /etc/os-release && return
