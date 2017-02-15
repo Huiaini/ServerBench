@@ -6,7 +6,7 @@
 
 
 ### 下载脚本:
-`wget --no-check-certificate https://raw.githubusercontent.com/Huaini/ServerBench/master/serverbench.sh`
+`wget --no-check-certificate https://raw.githubusercontent.com/Huiaini/ServerBench/master/serverbench.sh`
 
 ### 使其可执行（添加执行权限）:
 `chmod +x serverbench.sh`
