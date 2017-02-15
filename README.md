@@ -1,15 +1,18 @@
 # ServerBench
-## View basic system information, disk speed along with network performance - tested from multiple locations across the world!
+
+##服务器下载测试脚本
+
+## 查看基本系统信息，磁盘速度以及网络性能 - 从世界各地的多个位置进行测试！
 
 
-### Download the script:
+### 下载脚本:
 `wget --no-check-certificate https://raw.githubusercontent.com/K4Y5/ServerBench/master/serverbench.sh`
 
-### Make it executable:
+### 使其可执行（添加执行权限）:
 `chmod +x serverbench.sh`
 
-### Run it!
+### 运行!
 `./serverbench.sh`
 
 
-*Based on the script by Teddysun*
+*基于Teddysun的脚本*
